@@ -1,0 +1,73 @@
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.exe.config
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.exe
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.pdb
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.AssemblyReference.cache
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Form1.resources
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Properties.Resources.resources
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.GenerateResource.cache
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.CoreCompileInputs.cache
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.exe
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.pdb
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.QuanliSV.resources
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Trangchu.resources
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Quanlidiem.resources
+D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.LSDiem.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.AssemblyReference.cache
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Form1.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.LSDiem.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Properties.Resources.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Quanlidiem.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.QuanliSV.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Trangchu.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.GenerateResource.cache
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.CoreCompileInputs.cache
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.exe
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.pdb
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.exe.config
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.exe
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.pdb
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\DnsClient.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Owin.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Owin.Security.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Win32.Registry.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\MongoDB.Bson.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\MongoDB.Driver.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Newtonsoft.Json.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Owin.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\SharpCompress.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Snappier.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Buffers.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Memory.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Numerics.Vectors.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Security.AccessControl.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Security.Principal.Windows.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\ZstdSharp.dll
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\DnsClient.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Owin.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Owin.Security.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Microsoft.Win32.Registry.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\MongoDB.Bson.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\MongoDB.Driver.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Newtonsoft.Json.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Snappier.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Buffers.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Memory.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Numerics.Vectors.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Security.AccessControl.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Security.Principal.Windows.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Qu_n l_ .B1A8F963.Up2Date
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.QLDiem.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Form3.resources
