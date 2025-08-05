@@ -13,16 +13,6 @@ D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug
 D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Quanlidiem.resources
 D:\c#\menu\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.LSDiem.resources
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.AssemblyReference.cache
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Form1.resources
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.LSDiem.resources
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Properties.Resources.resources
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Quanlidiem.resources
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.QuanliSV.resources
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Trangchu.resources
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.GenerateResource.cache
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.CoreCompileInputs.cache
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.exe
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.pdb
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.exe.config
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.exe
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\Quản lí điểm sinh viên.pdb
@@ -68,6 +58,15 @@ D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Security.Principal.Windows.xml
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Text.Encoding.CodePages.xml
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Qu_n l_ .B1A8F963.Up2Date
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Form1.resources
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.QLDiem.resources
 D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Form3.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.LSDiem.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Properties.Resources.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Quanlidiem.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản_lí_điểm_sinh_viên.Trangchu.resources
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.GenerateResource.cache
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.csproj.CoreCompileInputs.cache
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Qu_n l_ .B1A8F963.Up2Date
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.exe
+D:\Quản lí điểm sinh viên\Quản lí điểm sinh viên\obj\Debug\Quản lí điểm sinh viên.pdb

@@ -185,12 +185,6 @@
     <Compile Include="Quanlidiem.Designer.cs">
       <DependentUpon>Quanlidiem.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanliSV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QuanliSV.Designer.cs">
-      <DependentUpon>QuanliSV.cs</DependentUpon>
-    </Compile>
     <Compile Include="LSDiem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,9 +226,6 @@
     </Compile>
     <EmbeddedResource Include="Quanlidiem.resx">
       <DependentUpon>Quanlidiem.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QuanliSV.resx">
-      <DependentUpon>QuanliSV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trangchu.resx">
       <DependentUpon>Trangchu.cs</DependentUpon>

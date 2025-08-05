@@ -53,12 +53,12 @@
             this.btnThemMoi = new System.Windows.Forms.Button();
             this.btnTim = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.quanLyDiemSinhVienDataSet1 = new Quản_lí_điểm_sinh_viên.QuanLyDiemSinhVienDataSet();
+
             this.txtMa = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyDiemSinhVienDataSet1)).BeginInit();
+
             this.SuspendLayout();
             // 
             // hienThiTatCa
@@ -78,11 +78,11 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 241);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 238);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(904, 312);
+            this.dataGridView1.Size = new System.Drawing.Size(903, 312);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -90,7 +90,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.Location = new System.Drawing.Point(8, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 20);
             this.label1.TabIndex = 2;
@@ -100,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(18, 114);
+            this.label3.Location = new System.Drawing.Point(18, 125);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 20);
             this.label3.TabIndex = 4;
@@ -110,7 +110,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(12, 158);
+            this.label4.Location = new System.Drawing.Point(12, 160);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 20);
             this.label4.TabIndex = 5;
@@ -125,7 +125,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(903, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(903, 29);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -134,21 +134,22 @@
             this.quảnLíToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.điểmSinhViênToolStripMenuItem,
             this.lịchSửĐiểmToolStripMenuItem});
+            this.quảnLíToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.quảnLíToolStripMenuItem.Name = "quảnLíToolStripMenuItem";
-            this.quảnLíToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.quảnLíToolStripMenuItem.Size = new System.Drawing.Size(72, 25);
             this.quảnLíToolStripMenuItem.Text = "Quản lí";
             this.quảnLíToolStripMenuItem.Click += new System.EventHandler(this.quảnLíToolStripMenuItem_Click);
             // 
             // điểmSinhViênToolStripMenuItem
             // 
             this.điểmSinhViênToolStripMenuItem.Name = "điểmSinhViênToolStripMenuItem";
-            this.điểmSinhViênToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.điểmSinhViênToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.điểmSinhViênToolStripMenuItem.Text = "Điểm sinh viên";
             // 
             // lịchSửĐiểmToolStripMenuItem
             // 
             this.lịchSửĐiểmToolStripMenuItem.Name = "lịchSửĐiểmToolStripMenuItem";
-            this.lịchSửĐiểmToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lịchSửĐiểmToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.lịchSửĐiểmToolStripMenuItem.Text = "Lịch sử điểm";
             this.lịchSửĐiểmToolStripMenuItem.Click += new System.EventHandler(this.lịchSửĐiểmToolStripMenuItem_Click);
             // 
@@ -159,33 +160,35 @@
             this.đổiMậtKhẩuToolStripMenuItem,
             this.toolStripMenuItem2,
             this.đăngXuấtToolStripMenuItem});
+            this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
-            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(70, 25);
             this.càiĐặtToolStripMenuItem.Text = "Cài đặt";
             // 
             // thôngTinToolStripMenuItem
             // 
             this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
-            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
             this.thôngTinToolStripMenuItem.Text = "Thông tin giảng viên";
             // 
             // đổiMậtKhẩuToolStripMenuItem
             // 
             this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
-            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
             this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi mật khẩu";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(227, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(233, 26);
             this.toolStripMenuItem2.Text = "...................................................";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Thoát";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // btnLuu
             // 
@@ -235,21 +238,21 @@
             // 
             // txtHovsTenSV
             // 
-            this.txtHovsTenSV.Location = new System.Drawing.Point(125, 39);
+            this.txtHovsTenSV.Location = new System.Drawing.Point(125, 48);
             this.txtHovsTenSV.Name = "txtHovsTenSV";
             this.txtHovsTenSV.Size = new System.Drawing.Size(163, 20);
             this.txtHovsTenSV.TabIndex = 11;
             // 
             // txtDiem
             // 
-            this.txtDiem.Location = new System.Drawing.Point(125, 116);
+            this.txtDiem.Location = new System.Drawing.Point(125, 127);
             this.txtDiem.Name = "txtDiem";
             this.txtDiem.Size = new System.Drawing.Size(163, 20);
             this.txtDiem.TabIndex = 13;
             // 
             // txtMonHoc
             // 
-            this.txtMonHoc.Location = new System.Drawing.Point(125, 160);
+            this.txtMonHoc.Location = new System.Drawing.Point(125, 162);
             this.txtMonHoc.Name = "txtMonHoc";
             this.txtMonHoc.Size = new System.Drawing.Size(163, 20);
             this.txtMonHoc.TabIndex = 14;
@@ -259,8 +262,9 @@
             this.txtTuKhoa.Location = new System.Drawing.Point(522, 76);
             this.txtTuKhoa.Multiline = true;
             this.txtTuKhoa.Name = "txtTuKhoa";
-            this.txtTuKhoa.Size = new System.Drawing.Size(233, 45);
+            this.txtTuKhoa.Size = new System.Drawing.Size(222, 33);
             this.txtTuKhoa.TabIndex = 15;
+            this.txtTuKhoa.TextChanged += new System.EventHandler(this.txtTuKhoa_TextChanged);
             // 
             // btnThemMoi
             // 
@@ -294,14 +298,11 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "Nhập Từ Khóa ";
             // 
-            // quanLyDiemSinhVienDataSet1
-            // 
-            this.quanLyDiemSinhVienDataSet1.DataSetName = "QuanLyDiemSinhVienDataSet";
-            this.quanLyDiemSinhVienDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+           
             // 
             // txtMa
             // 
-            this.txtMa.Location = new System.Drawing.Point(125, 76);
+            this.txtMa.Location = new System.Drawing.Point(125, 89);
             this.txtMa.Name = "txtMa";
             this.txtMa.Size = new System.Drawing.Size(163, 20);
             this.txtMa.TabIndex = 19;
@@ -310,7 +311,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(18, 76);
+            this.label7.Location = new System.Drawing.Point(12, 89);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 20);
             this.label7.TabIndex = 20;
@@ -346,7 +347,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyDiemSinhVienDataSet1)).EndInit();
+     
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,7 +380,7 @@
         private System.Windows.Forms.Button btnThemMoi;
         private System.Windows.Forms.Button btnTim;
         private System.Windows.Forms.Label label6;
-        private QuanLyDiemSinhVienDataSet quanLyDiemSinhVienDataSet1;
+     
         private System.Windows.Forms.TextBox txtMa;
         private System.Windows.Forms.Label label7;
     }

@@ -24,8 +24,11 @@ namespace Quản_lí_điểm_sinh_viên
         private void Button1_Click(object sender, EventArgs e)
         {
             LoadTableSinhVien();
-          
-       
+            // tăng kích thước bảng sinh viên  
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.Size = new Size(903, 312);
+
+
         }
 
         private void LoadTableSinhVien()
@@ -42,11 +45,7 @@ namespace Quản_lí_điểm_sinh_viên
 
         }
 
-        private void QuảnLíSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            QuanliSV formDiem = new QuanliSV();
-            formDiem.Show(); // hiện form mới
-        }
+    
 
         private void quảnLíToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -70,10 +69,10 @@ namespace Quản_lí_điểm_sinh_viên
         }
         private void UnEnableControls(List<Control> controls)
         {
-            foreach (Control control in controls) { 
-            
-            
-              control.Enabled = false;
+            foreach (Control control in controls) {
+                control.Text = "";
+
+               
             }
         }
 
@@ -90,7 +89,9 @@ namespace Quản_lí_điểm_sinh_viên
         private void QLDiem_Load(object sender, EventArgs e)
         {
             DisableControls(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu });
+        
         }
+        
         private void btnLuu_Click(object sender, EventArgs e)
         {
             string hoTen = txtHovsTenSV.Text;
@@ -118,7 +119,7 @@ namespace Quản_lí_điểm_sinh_viên
             if (kq > 0)
             {
                 // Ghi lịch sử điểm: chỉ có thông tin mới, không có thông tin cũ
-                Data.GhiLichSuDiem(
+                Data.GhiLichSu(
                     maSV,
                     "", // Tên cũ
                     hoTen, // Tên mới
@@ -135,6 +136,8 @@ namespace Quản_lí_điểm_sinh_viên
 
                 UnEnableControls(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu });
                 ResetText(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu });
+                btnLuu.Enabled = true;
+
             }
             else
             {
@@ -185,7 +188,7 @@ namespace Quản_lí_điểm_sinh_viên
             decimal diemCu = Convert.ToDecimal(svCu["Diem"]);
 
             // Ghi lịch sử điểm
-            Data.GhiLichSuDiem(maSV, hoTenCu, hoTenMoi, monHocCu, monHocMoi, diemCu, diemMoi, "Sửa", tenDangNhap);
+            Data.GhiLichSu(maSV, hoTenCu, hoTenMoi, monHocCu, monHocMoi, diemCu, diemMoi, "Sửa", tenDangNhap);
 
             // Cập nhật bảng SinhVien
             string query = $@"
@@ -202,6 +205,8 @@ namespace Quản_lí_điểm_sinh_viên
                 LoadTableSinhVien();
                 UnEnableControls(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu, btnSua, btnXoa });
                 ResetText(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu });
+              
+
             }
             else
             {
@@ -247,7 +252,7 @@ namespace Quản_lí_điểm_sinh_viên
             if (kq > 0)
             {
                 // Ghi lịch sử điểm: chỉ có dữ liệu cũ
-                Data.GhiLichSuDiem(
+                Data.GhiLichSu(
                     maSV,
                     hoTenCu, null,         // Tên cũ, tên mới
                     monHocCu, null,        // Môn học cũ, mới
@@ -259,7 +264,7 @@ namespace Quản_lí_điểm_sinh_viên
                 MessageBox.Show("Xóa thành công");
                 LoadTableSinhVien();
                 UnEnableControls(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu, btnSua, btnXoa });
-                ResetText(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc, btnLuu });
+                ResetText(new List<Control> { txtDiem, txtHovsTenSV, txtMa, txtMonHoc });
             }
             else
             {
@@ -282,6 +287,16 @@ namespace Quản_lí_điểm_sinh_viên
         {
             Form3 form3 = new Form3();
             form3.Show();
+        }
+
+        private void txtTuKhoa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

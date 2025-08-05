@@ -12,7 +12,7 @@ namespace QuanLyDiemSinhVien
     {
         public static List<DangNhap> DangNhapList = new List<DangNhap>();
 
-        private const string ConnectionString = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=QuanLyDiemSinhVien;Integrated Security=True";
+        private const string ConnectionString = "Data Source=MSI;Initial Catalog=QlySinhVien;Integrated Security=True;Trust Server Certificate=True";
 
 
         private static SqlConnection connection;
@@ -94,7 +94,7 @@ namespace QuanLyDiemSinhVien
             return kq ;
         }
 
-        public static void GhiLichSuDiem(
+        public static void GhiLichSu(
      string maSV,
      string tenCu,
      string tenMoi,
@@ -108,7 +108,7 @@ namespace QuanLyDiemSinhVien
             try
             {
                 OpenConnection();
-
+                // Chèn dữ liệu
                 string queryInsert = @"
             INSERT INTO LichSuDiem 
             (MaSV, TenCu, TenMoi, MonHocCu, MonHocMoi, DiemCu, DiemMoi, ThaoTac, ThoiGian, NguoiThucHien)
@@ -116,13 +116,15 @@ namespace QuanLyDiemSinhVien
             (@MaSV, @TenCu, @TenMoi, @MonHocCu, @MonHocMoi, @DiemCu, @DiemMoi, @ThaoTac, GETDATE(), @NguoiThucHien)";
 
                 SqlCommand cmdInsert = new SqlCommand(queryInsert, connection);
-
+                // gắn vô sql 
+                // Đảm bảo rằng nếu một biến bị null trong C#, thì vẫn gán được vào tham số SQL dưới dạng NULL
+                //Tránh lỗi runtime do null không thể trực tiếp gán vào câu lệnh SQL mà không chuyển sang DBNull.Value
                 cmdInsert.Parameters.AddWithValue("@MaSV", maSV ?? (object)DBNull.Value);
                 cmdInsert.Parameters.AddWithValue("@TenCu", tenCu ?? (object)DBNull.Value);
                 cmdInsert.Parameters.AddWithValue("@TenMoi", tenMoi ?? (object)DBNull.Value);
                 cmdInsert.Parameters.AddWithValue("@MonHocCu", monHocCu ?? (object)DBNull.Value);
                 cmdInsert.Parameters.AddWithValue("@MonHocMoi", monHocMoi ?? (object)DBNull.Value);
-
+                //Chuẩn bị và gán các tham số cho câu lệnh SQL
                 if (diemCu.HasValue)
                     cmdInsert.Parameters.AddWithValue("@DiemCu", diemCu.Value);
                 else
